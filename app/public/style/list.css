@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background: #2b2a2a;
+}
+
+.clear {
+    clear: both;
+}
+
+.list {
+    width: 100%;
+    height: auto;
+}
+
+.list h2 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+    display: block;
+}
+
+.single-song {
+    width: 600px;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.288);
+}
+
+.single-song p{
+    display: inline;
+    font-size: 30px;
+    color: white;
+}
+
+.single-song audio {
+    float: right;
+}
+
+#moveTo {
+    cursor: pointer;
+}
+
+.pastList {
+    background-color: black;
+    width: 100px;
+    color: white;
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    right: 280px;
+    display: none;
+}
+

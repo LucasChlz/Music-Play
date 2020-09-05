@@ -1,0 +1,20 @@
+{
+    "name": "lucas/music-play",
+    "authors": [
+        {
+            "name": "LucasChlz",
+            "email": "lucasgabrielsampaio2019@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/router": "^1.0.7"
+    }
+}

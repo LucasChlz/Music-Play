@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    background: #2b2a2a;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.upload {
+    height: 100%;
+}
+
+.upload p {
+    font-size: 40px;
+    color: white;
+    display: block;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.navi {
+    color: white;
+    text-align: center;
+    display: block;
+    transform: rotate(180deg);
+}
+
+.alinha {
+    width: 700px;
+    height: auto;
+    position: relative;
+    top: 50%;
+    margin-top: 100px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.input-field input:focus + label {
+    color: rgb(255, 255, 255) !important;
+}
+
+.input-field input{
+    color: white !important;
+    font-size: 17px !important;
+}
+
+.input-field input:focus {
+border-bottom: 1px solid rgb(255, 255, 255) !important;
+box-shadow: 0 1px 0 0 rgb(255, 255, 255) !important
+}
+
+.bt {
+    height: 45px;
+    color: black;
+    margin-left: 30px;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+.bt > i {
+    color: black;
+}
